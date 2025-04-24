@@ -1,4 +1,4 @@
-text
+text,sentiment_score
 "I love AI and Big Data!"
 "This is terrible, everything is broken."
 "Kafka and Spark make streaming fun."
