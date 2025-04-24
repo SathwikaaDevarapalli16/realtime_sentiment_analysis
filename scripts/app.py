@@ -6,7 +6,7 @@ st.title("📊 Twitter Sentiment Analysis Dashboard")
 
 try:
     # Load CSV from data folder
-    df = pd.read_csv("data/sample_tweets.csv")  # Corrected path
+    df = pd.read_csv("sample_tweets.csv")  # Corrected path
     df.columns = ['text', 'sentiment_score']  # Ensure correct columns
 
     st.success("Sentiment data loaded successfully!")
