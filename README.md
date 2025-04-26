@@ -22,11 +22,11 @@ Streamlit for UI.
 Setup & Running Locally
 
 1. Clone the repository:
-   git clone git@github.com:YourUsername/realtime_sentiment_analysis.git
+   git clone git@github.com:YourUsername/realtime_sentiment_analysis.git;
    cd realtime_sentiment_analysis
    
 2. Start Kafka and Zookeeper:
-   bin/zookeeper-server-start.sh config/zookeeper.properties
+   bin/zookeeper-server-start.sh config/zookeeper.properties;
    bin/kafka-server-start.sh config/server.properties
    
 3. Run Kafka Producer:
